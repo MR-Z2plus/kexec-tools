@@ -188,7 +188,7 @@ static int hammerhead_add_extra_regs(void *dtb_buf)
 }
 
 const struct arm_mach arm_mach_hammerhead = {
-    .boardnames = { "hammerhead", "bacon", "A0001", "d851", "d855", "armani", "wt88047", "oneplus3", "OnePlus3", "oneplus2", "OnePlus2", "onyx", NULL },
+    .boardnames = { "hammerhead", "bacon", "A0001", "d851", "d855", "armani", "wt88047", "oneplus3", "OnePlus3", "z2_plus", "Z2_Plus", "z2131", "Z2131", "z2", "Z2", "z2plus", "Z2Plus", "Z2_PLUS", "oneplus2", "OnePlus2", "onyx", NULL },
     .choose_dtb = hammerhead_choose_dtb,
     .add_extra_regs = hammerhead_add_extra_regs,
 };
